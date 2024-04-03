@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes com Google Fonts</title>
+    <style>
+        /* Regra */
+        /* Ideal 3 ou 4 tipos de Fontes */
+
+        @import url('https://fonts.googleapis.com/css2?family=Itim&family=Luckiest+Guy&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        @font-face {
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+
+            font-family: 'Love';
+            src: url('fonts/love larry ttf.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* Seletor */
+        body {
+            /* Declarações */
+            font-family: "Work Sans", Arial, Verdana, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: "Love", system-ui;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-family: "Rubik Glitch Pop", system-ui;
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Eu Te Amooo, Você é Tudo para Mim. </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat beatae accusantium, deserunt incidunt perferendis autem molestias voluptatibus enim! Eligendi, eius repellat omnis necessitatibus rerum tenetur sunt eveniet adipisci nesciunt?</p>
+
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis saepe quas nostrum accusamus exercitationem repudiandae rem, pariatur, veniam neque, deleniti eos delectus qui perferendis et consequatur quia odit beatae.</p>
+</body>
+</html>

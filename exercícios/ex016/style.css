@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+* { /*Configuração Global das CSS*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body { /*Seletor*/
+    background-image: linear-gradient(to right, #A1A2A6, #024959);
+}
+
+main { /*Seletor*/
+    background-color: white;
+    border-radius: 10px; /*Bordas Redondas*/
+    box-shadow: 5px 5px 15px #012830b4; /*Sombra: 1 - Lado, 2 - Baixo, 3 - Espalhar, 4 - Cor e Transparência*/
+    width: 500px; /*Largura*/
+    padding: 10px; /*Acolchoamento ou Espaço nas Laterais*/
+    margin: auto; /*Centraliza o Conteúdo HTML*/
+}
+
+h1 { /*Seletor*/
+    color: #593e25;
+    text-align: center;
+    text-shadow: 1px 1px 2px #2c1e13c0;
+}
+
+h2 { /*Seletor*/
+    color: #024959;
+}
+
+p { /*Seletor*/
+    text-align: justify;
+}
