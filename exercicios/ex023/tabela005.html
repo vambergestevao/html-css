@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            background-color: black;
+            color: white;
+            padding: 8px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: lightgoldenrodyellow;
+        }
+
+        col.cgrupo {
+            background-color: rgb(255, 255, 150);
+        }
+
+        col.cprof {
+            background-color: rgb(167, 255, 80);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadrastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Carlos José</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Fabiane Melo</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Dentista</td>
+        </tr>
+        <tr>
+            <td>José Almeida</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Antonio Marcos</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Rose Nogueira</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Advogada</td>
+        </tr>
+    </table>
+</body>
+</html>
